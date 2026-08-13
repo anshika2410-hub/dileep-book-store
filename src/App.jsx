@@ -138,13 +138,12 @@ function HomePage()  {
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4">
-
-              <a
-                href="#categories"
-                className="rounded-full bg-[#29231f] px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#b46b3c] active:scale-95"
-              >
-                Explore Products
-              </a>
+<a 
+  href="#collection" 
+  className="rounded-full bg-[#29231f] px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#b46b3c] active:scale-95" 
+>
+  Explore Products
+</a>
 
               <a
                 href="#contact"
