@@ -624,7 +624,7 @@ function HomePage()  {
     {/* IMAGE */}
     <div className="overflow-hidden rounded-[2rem]">
       <img
-        src="https://images.unsplash.com/photo-1601598851547-4302969d7c71?auto=format&fit=crop&w=1200&q=85"
+        src="https://images.unsplash.com/photo-1699443817739-cf2f7cbcd18d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJvb2slMjBzaG9wfGVufDB8fDB8fHww"
         alt="Book store interior"
         className="h-[430px] w-full object-cover"
       />
@@ -795,16 +795,14 @@ function HomePage()  {
 
     {/* MAP */}
     <div className="overflow-hidden rounded-[2rem] border border-[#eadfd2] bg-white shadow-sm">
-
-      <iframe
-        title="Dileep Book Store Location"
-        src="https://www.google.com/maps?q=India&output=embed"
-        className="h-[480px] w-full border-0"
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      />
-
-    </div>
+  <iframe
+  title="Dileep Book Store Location"
+  src="https://www.google.com/maps?q=25.6631386,79.7984415&z=17&output=embed"
+  className="block h-[480px] w-full border-0"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+</div>
 
   </div>
 </section>
